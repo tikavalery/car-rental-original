@@ -1,11 +1,13 @@
 import React from "react";
+import DefaultLayOut from "../components/DefaultLayOut";
 
 function Login() {
     return(
-        <div>
-            <h1>Login</h1>
-        </div>
-    )
+     <DefaultLayOut>
+        <h1>Login</h1>
+     </DefaultLayOut>
+    )  
+        
 }
 
 export default Login; 

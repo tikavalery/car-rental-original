@@ -1,10 +1,12 @@
 import React from "react";
+import DefaultLayOut from "../components/DefaultLayOut";
 
 function Register(){
     return(
-        <div>
-            <h1>Register</h1>
-        </div>
+      <DefaultLayOut>
+          <h1>Register</h1>
+      </DefaultLayOut>
+       
     )
 }
 
